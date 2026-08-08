@@ -1,1 +1,17 @@
-<!doctype html><meta charset="utf-8"><meta http-equiv="refresh" content="0; url=../grade3_3N11_number_builders_to_100.html"><title>Number Builders to 100</title><p><a href="../grade3_3N11_number_builders_to_100.html">Open Number Builders to 100</a></p>
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Number Builders to 100</title>
+</head>
+<body>
+<p id="loading" style="font-family:Arial,sans-serif;padding:20px">Loading Number Builders to 100…</p>
+<script>
+fetch('https://raw.githubusercontent.com/austinepugh-2027/Grade-3-Math/main/grade3_3N11_number_builders_to_100.html')
+  .then(r => { if (!r.ok) throw new Error('Unable to load lesson'); return r.text(); })
+  .then(html => { document.open(); document.write(html); document.close(); })
+  .catch(() => { document.getElementById('loading').textContent = 'The lesson could not be loaded. Please refresh the page.'; });
+</script>
+</body>
+</html>
